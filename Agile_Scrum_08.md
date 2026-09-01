@@ -1,3 +1,10 @@
+Agile Methodology ⭐⭐⭐⭐⭐
+=======================
+
+**Agile** is a software development approach where work is delivered in **small iterations**, with continuous feedback and improvements.
+
+Instead of waiting months for the complete product, work is divided into smaller pieces.
+
 ### How Agile works in my project
 
 We follow an **Agile-based process with PI planning and 15-day Sprints**.
