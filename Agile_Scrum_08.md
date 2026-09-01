@@ -69,3 +69,5 @@ Scrum Ceremonies
 ### 🔥 Interview answer: "How does Agile work in your project?"
 
 > **In our project, we work in a PI-based Agile model. One PI is around three months and contains six 15-day Sprints. At the beginning of the PI, we plan a major command or functionality and divide it into multiple Features. Each Feature is further divided into User Stories with Acceptance Criteria. As QA, I create test cases based on these requirements, execute them when the features are available, report and retest defects, and perform regression and pre-production testing in the later Sprints. We also participate in Sprint Planning, Daily Stand-ups, Backlog Refinement, Sprint Reviews and Retrospectives.**
+
+"Our project follows an Agile-based process with PI planning. Each PI is around three months and consists of six 15-day Sprints. We plan major functionality at the beginning of the PI, break it into Features and User Stories, and QA performs testing incrementally throughout the Sprints, followed by regression and pre-production testing toward the end."
