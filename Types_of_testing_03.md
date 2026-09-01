@@ -489,3 +489,17 @@ Useful when:
 ------------------
 
 > **Exploratory testing is an unscripted but goal-oriented approach where I simultaneously learn, design and execute tests. Ad-hoc testing is more informal and unstructured, where I perform random or intuitive checks without predefined test cases.**
+
+Performance Testing Basics ⭐⭐
+=============================
+
+You only need to understand the **difference and basic examples**.
+
+| Type | Simple Explanation | Example |
+| --- | --- | --- |
+| **Performance Testing** | Checks the application's **speed, responsiveness and stability** under different conditions. | Check whether the homepage loads within 2 seconds with 500 users. |
+| **Load Testing** | Checks how the application performs under its **expected user/load level**. | Application normally supports 1,000 users → test with 1,000 users. |
+| **Stress Testing** | Pushes the application **beyond its expected limit** to see when/how it fails. | Application supports 1,000 users → test with 5,000 users and observe the behavior. |
+| **Volume Testing** | Checks performance when handling a **large amount of data**. | Test a database with **10 million customer records**. |
+| **Spike Testing** | Checks what happens when the load **suddenly increases or decreases**. | Users suddenly increase from 500 → 5,000 within a few seconds. |
+| **Endurance / Soak Testing** | Checks whether the application remains stable under load for a **long period**. | Run 1,000 users continuously for **24 hours** and check for memory leaks/crashes. |
