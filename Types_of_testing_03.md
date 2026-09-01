@@ -374,3 +374,118 @@ Check whether:
 > **Accessibility → Can everyone use it?**
 
 🔥 **Most important for interviews:** Smoke, Sanity, Regression, Retesting, Integration, E2E, Load vs Stress.
+
+Exploratory & Ad-hoc Testing ⭐⭐⭐
+================================
+
+These are **less structured testing approaches** where the tester uses their understanding and experience to find issues beyond predefined test cases.
+
+1\. Exploratory Testing ⭐⭐⭐⭐
+----------------------------
+
+Testing where **learning, test design, and execution happen together**. The tester explores the application based on requirements, experience, and observations.
+
+### Example:
+
+While testing the DFS command, you notice that changing the DFS text after creation behaves strangely.
+
+You then explore related scenarios:
+
+-   Change text multiple times.
+-   Enter special characters.
+-   Close and reopen the command.
+-   Undo/redo after changing text.
+
+You may discover defects that aren't covered by existing test cases.
+
+👉 **Exploratory = Explore + Learn + Test**
+
+* * * * *
+
+2\. Ad-hoc Testing ⭐⭐⭐
+----------------------
+
+Testing performed **without predefined test cases or a formal plan**, mainly to quickly find defects.
+
+### Example:
+
+You randomly try:
+
+-   Clicking buttons multiple times.
+-   Entering unexpected input.
+-   Closing dialogs at unusual points.
+-   Performing actions in an unusual sequence.
+
+If you find a defect, you report it.
+
+👉 **Ad-hoc = Informal / Random testing**
+
+* * * * *
+
+3\. Monkey Testing ⭐⭐⭐
+======================
+
+Testing by providing **random/unpredictable actions or inputs** without following a specific test scenario.
+
+### Example:
+
+On an application:
+
+-   Randomly click buttons.
+-   Enter random characters.
+-   Open/close screens repeatedly.
+-   Perform random actions quickly.
+
+Goal → See whether the application **crashes or behaves unexpectedly**.
+
+👉 **Monkey = Random actions**
+
+* * * * *
+
+🔥 Exploratory vs Ad-hoc
+========================
+
+| Exploratory Testing | Ad-hoc Testing |
+| --- | --- |
+| Some **goal/area is defined** | Usually no specific goal |
+| Tester uses knowledge and explores | Tester performs informal/random testing |
+| Testing + learning happen together | Mainly focused on quickly finding defects |
+| More systematic than ad-hoc | Less structured |
+| Example: Explore all DFS editing scenarios | Randomly click/change DFS options to find issues |
+
+### Easy memory:
+
+> **Exploratory → "I know what area I want to explore, but I don't have predefined test cases."**
+
+> **Ad-hoc → "I'll try things informally and see if I can break it."**
+
+* * * * *
+
+4\. When to Use Them?
+=====================
+
+### Exploratory Testing
+
+Useful when:
+
+-   Requirements are incomplete.
+-   New functionality needs quick investigation.
+-   You want to find defects beyond written test cases.
+-   You have limited time.
+-   You want to understand unfamiliar functionality.
+
+### Ad-hoc Testing
+
+Useful when:
+
+-   You need quick additional testing.
+-   You suspect a particular area may have issues.
+-   After formal testing, you want some informal checks.
+-   There isn't enough time to create detailed test cases.
+
+* * * * *
+
+⭐ Interview Answer
+------------------
+
+> **Exploratory testing is an unscripted but goal-oriented approach where I simultaneously learn, design and execute tests. Ad-hoc testing is more informal and unstructured, where I perform random or intuitive checks without predefined test cases.**
