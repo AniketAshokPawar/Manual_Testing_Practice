@@ -21,3 +21,16 @@ Defect Report Format
 | **Attachments** | Screenshots, videos, logs, etc. |
 | **Comments** | Additional information or observations |
 
+⭐ Interview Question
+====================
+
+"What information do you provide to developers when reporting a bug?"
+---------------------------------------------------------------------
+
+### Best interview-friendly answer:
+
+> When reporting a bug, I provide a clear bug title, environment details, preconditions, exact steps to reproduce, test data if required, expected and actual results, severity, priority, and reproducibility. I also attach screenshots, videos, or relevant logs so the developer can easily understand and reproduce the issue.
+
+| Bug ID | Bug Title | Environment | Preconditions | Steps to Reproduce | Test Data | Expected Result | Actual Result | Severity | Priority | Reproducibility | Attachments / Logs | Comments |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BUG_001 | User is unable to login with valid credentials | QA, Build v2.1.0, Chrome, Windows 11 | Registered user account is available | 1\. Open Login page2. Enter valid username3. Enter valid password4. Click Login | Username: `user@test.com`Password: `Test@123` | User should login successfully and be redirected to Dashboard | Error message is displayed and user remains on Login page | High | High | Always | Screenshot, video, console logs | Issue occurs consistently in QA environment |
