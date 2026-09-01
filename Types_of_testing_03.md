@@ -503,3 +503,56 @@ You only need to understand the **difference and basic examples**.
 | **Volume Testing** | Checks performance when handling a **large amount of data**. | Test a database with **10 million customer records**. |
 | **Spike Testing** | Checks what happens when the load **suddenly increases or decreases**. | Users suddenly increase from 500 → 5,000 within a few seconds. |
 | **Endurance / Soak Testing** | Checks whether the application remains stable under load for a **long period**. | Run 1,000 users continuously for **24 hours** and check for memory leaks/crashes. |
+
+
+Black-box vs White-box Testing ⭐⭐⭐⭐⭐
+====================================
+
+Yes, **this should be in your manual-testing preparation**.
+
+### Black-box Testing
+
+Tester tests the application **without knowing the internal code/implementation**.
+
+You focus on:
+
+**Input → Application → Output**
+
+Examples:
+
+-   Functional Testing
+-   Regression Testing
+-   Smoke Testing
+-   Equivalence Partitioning
+-   Boundary Value Analysis
+
+👉 **QA commonly performs black-box testing.**
+
+* * * * *
+
+### White-box Testing
+
+Testing is done with knowledge of the **internal code/logic/structure**.
+
+Example:
+
+> Developer checks whether every branch of an `if/else` condition is executed.
+
+Common techniques:
+
+-   Statement coverage
+-   Branch coverage
+-   Path coverage
+
+👉 Mostly associated with **developers/unit testing**, although QA automation/SDET roles can also work with some white-box techniques.
+
+* * * * *
+
+### Black-box vs White-box
+
+| Black-box | White-box |
+| --- | --- |
+| Internal code not required | Internal code is known |
+| Focuses on functionality | Focuses on code/logic |
+| Usually QA | Usually developers |
+| Example: Test Login with valid/invalid credentials | Check all branches of Login code |
